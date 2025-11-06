@@ -1,4 +1,3 @@
-cat > .gitignore << 'EOF'
 # environments & OS cruft
 .venv/
 env/
@@ -18,13 +17,6 @@ runs/**
 
 # notebooks cache
 .ipynb_checkpoints/
-EOF
 
-# placeholders so folders exist in the repo
-mkdir -p data outputs runs
-: > data/.gitkeep
-: > outputs/.gitkeep
-: > runs/.gitkeep
-data/
-data/
+# ignore full data folder
 data/

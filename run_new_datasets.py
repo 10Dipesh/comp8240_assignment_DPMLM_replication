@@ -1,6 +1,5 @@
 # run_new_datasets.py
 # Launch 10-row smoke rewrites for your NEW datasets using the original DPMLM.
-# It will search for data under (in order): data/original_dataset, data/new_dataset, new_dataset.
 
 from pathlib import Path
 from typing import Iterable
