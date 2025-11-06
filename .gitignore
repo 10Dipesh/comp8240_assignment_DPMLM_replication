@@ -1,0 +1,30 @@
+cat > .gitignore << 'EOF'
+# environments & OS cruft
+.venv/
+env/
+*.pyc
+__pycache__/
+.DS_Store
+
+# data (keep placeholders)
+data/**
+!data/.gitkeep
+
+# outputs/artifacts
+outputs/**
+!outputs/.gitkeep
+runs/**
+!runs/.gitkeep
+
+# notebooks cache
+.ipynb_checkpoints/
+EOF
+
+# placeholders so folders exist in the repo
+mkdir -p data outputs runs
+: > data/.gitkeep
+: > outputs/.gitkeep
+: > runs/.gitkeep
+data/
+data/
+data/
